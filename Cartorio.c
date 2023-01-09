@@ -141,6 +141,7 @@ int main() //função principal. Sempre roda primeiro
 		printf("\t\t1 - Registrar nomes \n");
 		printf("\t\t2 - Consultar nomes \n");
 		printf("\t\t3 - Deletar nomes \n\n");
+		printf("\t\t4 - Sair do sistema\n\n");
 		printf("\tEsse Software é de uso livre \n");
 		printf("\tFeito por Gabriel Lavareda Campos \n\n");
 		printf("Opção: ");   //fim do menu
@@ -161,6 +162,11 @@ int main() //função principal. Sempre roda primeiro
 			
 			case 3:
 			deletar();
+			break;
+			
+			case 4:
+			printf("Obrigado por utilizar o cartório!");
+			return 0;
 			break;
 			
 			default:
